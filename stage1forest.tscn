@@ -1,0 +1,65 @@
+[gd_scene load_steps=2 format=3 uid="uid://bnem2q7cmkvwu"]
+
+[ext_resource type="Script" path="res://stage1forest.gd" id="1_0i4b6"]
+
+[node name="stage1forest" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_0i4b6")
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 0
+offset_right = 1152.0
+offset_bottom = 61.0
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 0
+offset_left = 1077.0
+offset_top = 13.0
+offset_right = 1141.0
+offset_bottom = 47.0
+text = "RUN"
+
+[node name="HSeparator" type="HSeparator" parent="."]
+layout_mode = 0
+offset_left = 1.0
+offset_top = 59.0
+offset_right = 1152.0
+offset_bottom = 63.0
+
+[node name="CodeEdit" type="CodeEdit" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 62.0
+offset_bottom = -204.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+
+[node name="HSeparator2" type="HSeparator" parent="."]
+layout_mode = 0
+offset_left = 1.0
+offset_top = 442.0
+offset_right = 1151.0
+offset_bottom = 446.0
+
+[node name="Panel2" type="Panel" parent="."]
+layout_mode = 0
+offset_top = 445.0
+offset_right = 1152.0
+offset_bottom = 648.0
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Panel2"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+bbcode_enabled = true
